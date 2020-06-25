@@ -1,8 +1,7 @@
 {
   "name": "ionic-modal-bug",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Niklas Schwab",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

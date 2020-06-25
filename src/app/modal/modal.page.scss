@@ -1,0 +1,27 @@
+ion-header, ion-footer {
+  --background: pink !important;
+}
+
+ion-content {
+  --background: black !important;
+}
+
+ion-toolbar {
+  visibility: hidden;
+
+  --background: #222428d1;
+
+  ion-button {
+    width: inherit !important;
+    height: inherit !important;
+    --color: white !important;
+  }
+
+  ion-icon {
+    color: white;
+  }
+
+  #thinBrushIcon {
+    font-size: 8px !important;
+  }
+}
