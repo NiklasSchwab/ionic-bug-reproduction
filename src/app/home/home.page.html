@@ -1,23 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      iOS ion-input in ion-item focus bug
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-    <ion-button (click)="openModal()">
-      Open modal with bug
-    </ion-button>
-  </div>
+  <ion-item>
+    <ion-label class="inputLabel" position="floating">
+      <ion-icon name="person-circle"></ion-icon>Email
+    </ion-label>
+    <ion-input type="email" name="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label class="inputLabel" position="floating">
+      <ion-icon name="key"></ion-icon>Password
+    </ion-label>
+    <ion-input type="password" name="email"></ion-input>
+  </ion-item>
 </ion-content>

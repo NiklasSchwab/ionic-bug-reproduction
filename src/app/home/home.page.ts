@@ -1,8 +1,4 @@
 import { Component } from '@angular/core';
-import { ModalController } from '@ionic/angular';
-
-import { ModalPage } from '../modal/modal.page';
-
 
 @Component({
   selector: 'app-home',
@@ -11,17 +7,8 @@ import { ModalPage } from '../modal/modal.page';
 })
 export class HomePage {
 
-  constructor(
-    private modalCtrl: ModalController
-  ) {
+  constructor() {
 
-  }
-
-  async openModal() {
-    const modal = await this.modalCtrl.create({
-     component: ModalPage
-    });
-    await modal.present();
   }
 
 }
